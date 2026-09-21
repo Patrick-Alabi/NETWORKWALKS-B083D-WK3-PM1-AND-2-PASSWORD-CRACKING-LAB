@@ -86,8 +86,6 @@ Dictionary attack   Extract $pdf$ hash
 
 The recovered passwords were verified by opening the corresponding protected PDF files.
 
-> Passwords and CTF flags are intentionally not published in this repository.
-
 ---
 
 ## Tools Used
@@ -134,10 +132,28 @@ Common or predictable passwords are more vulnerable to dictionary-based attacks,
 Screenshots from the practical exercise document:
 
 - NetworkWalks Hash Calculator extracting a PDF hash
+
+![](s1-hash.png)
+
 - NetworkWalks Password Cracker performing a dictionary attack
+
+![](s2-dic-attack.png)
+
 - A successful password match in the Password Cracker
+
+![](s3-cracked-networkwalks.png)
+
 - John the Ripper/Johnny showing a successfully cracked PDF password
+
+![](s4-cracked-jtr.png)
+
 - The recovered PDFs opening successfully after entering the recovered passwords
+
+![](s5-locked-1.png)
+
+![](s6-locked-2.png)
+
+![](s7-locked-3.png)
 
 ---
 
@@ -164,8 +180,6 @@ The required Week 3 modules were:
 
 - **W3-PM1 — Password Cracking with JTR**
 - **W3-PM2 — Password Cracking with NetworkWalks Tools**
-
-The Week 3 project materials also listed optional activities, but this repository focuses on the two required password-cracking modules.
 
 ---
 
